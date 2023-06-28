@@ -1,0 +1,14 @@
+# Flask specific files and directories
+__pycache__/
+instance/
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/

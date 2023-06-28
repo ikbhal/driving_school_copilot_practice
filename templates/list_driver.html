@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <!-- add link , script tags to add boostrap theme js, css-->
+        
+        
+    </head>
+    <body>
+        <h1>List Driver</h1>
+        <!-- build python view templates from driver_list=driver_list -->
+        <!-- iterate pythno variable driver list, print driver name, mobile number -->
+        
+        {% for driver in driver_list %}
+        <p>{{driver.name}} - {{driver.mobile_number}}</p>
+            <!-- add delete button to each driver  , on click call delete drdiver api -->
+            <button >
+
+            </button>
+        {% endfor %}
+    </body>
+
+</html>
